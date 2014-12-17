@@ -1,0 +1,93 @@
+﻿Build started 12/17/2014 10:56:32 AM.
+     1>Project "C:\Users\Minh Dang\Documents\BKAV_TEST\BKAV_TEST\Student\Student.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Humans.cpp Worker.cpp main.cpp
+         main.cpp
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(3): error C2146: syntax error : missing ';' before identifier 'm_sName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(7): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(7): error C2535: 'Humans::Humans(void)' : member function already defined or declared
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(6) : see declaration of 'Humans::Humans'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): error C2146: syntax error : missing ';' before identifier 'getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): warning C4183: 'getName': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(21): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(27): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(33): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(6): error C2146: syntax error : missing ';' before identifier 'm_sName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): error C2146: syntax error : missing ';' before identifier 'getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): warning C4183: 'getName': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\main.cpp(8): error C2661: 'College::College' : no overloaded function takes 2 arguments
+         Worker.cpp
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(6): error C2146: syntax error : missing ';' before identifier 'm_sName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): error C2146: syntax error : missing ';' before identifier 'getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.h(13): warning C4183: 'getName': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(4): error C2871: 'tsd' : a namespace with this name does not exist
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2065: 'string' : undeclared identifier
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2146: syntax error : missing ')' before identifier 'n'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2761: '{ctor}' : member function redeclaration not allowed
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2059: syntax error : ')'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(6): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(14): error C2143: syntax error : missing ';' before 'Worker::getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\worker.cpp(16): error C2065: 'm_sName' : undeclared identifier
+         Humans.cpp
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(3): error C2146: syntax error : missing ';' before identifier 'm_sName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(7): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(7): error C2535: 'Humans::Humans(void)' : member function already defined or declared
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(6) : see declaration of 'Humans::Humans'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): error C2146: syntax error : missing ';' before identifier 'getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8): warning C4183: 'getName': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(21): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(27): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(33): error C2061: syntax error : identifier 'string'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(8): error C2511: 'College::College(std::string,int)' : overloaded member function not found in 'College'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(13) : see declaration of 'College'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(9): error C2671: 'College::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(9): error C2227: left of '->m_sName' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(10): error C2671: 'College::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(10): error C2227: left of '->m_nAge' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(17): error C2511: 'Student::Student(std::string,int)' : overloaded member function not found in 'Student'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(19) : see declaration of 'Student'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(18): error C2671: 'Student::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(18): error C2227: left of '->m_sName' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(19): error C2671: 'Student::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(19): error C2227: left of '->m_nAge' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(26): error C2511: 'Artist::Artist(std::string,int)' : overloaded member function not found in 'Artist'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(25) : see declaration of 'Artist'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(27): error C2671: 'Artist::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(27): error C2227: left of '->m_sName' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(28): error C2671: 'Artist::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(28): error C2227: left of '->m_nAge' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(35): error C2511: 'Singer::Singer(std::string,int)' : overloaded member function not found in 'Singer'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(31) : see declaration of 'Singer'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(36): error C2671: 'Singer::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(36): error C2227: left of '->m_sName' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(37): error C2671: 'Singer::{ctor}' : static member functions do not have 'this' pointers
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(37): error C2227: left of '->m_nAge' must point to class/struct/union/generic type
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(48): error C2511: 'Humans::Humans(std::string,int)' : overloaded member function not found in 'Humans'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(1) : see declaration of 'Humans'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(49): error C2065: 'm_sName' : undeclared identifier
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(50): error C2597: illegal reference to non-static member 'Humans::m_nAge'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(53): error C2556: 'std::string Humans::getName(void)' : overloaded function differs only by return type from 'int Humans::getName(void)'
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8) : see declaration of 'Humans::getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(53): error C2371: 'Humans::getName' : redefinition; different basic types
+                 c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.h(8) : see declaration of 'Humans::getName'
+     1>c:\users\minh dang\documents\bkav_test\bkav_test\student\humans.cpp(55): error C2065: 'm_sName' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\Minh Dang\Documents\BKAV_TEST\BKAV_TEST\Student\Student.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.88
