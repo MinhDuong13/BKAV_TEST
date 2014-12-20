@@ -14,7 +14,7 @@ Triangle::Triangle(int xA, int yA, int xB, int yB, int xC, int yC) {
 	m_nYAngleC = yC;
 }
 
-//Lay haonh do dinh thu nhat
+//Lay hoanh do dinh thu nhat
 int Triangle::getXAngleA() {
 
 	return m_nXAngleA;
